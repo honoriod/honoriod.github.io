@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto de Extensão em Ergonomia e Segurança no Trabalho</title>
+  <style>
+    /* Estilos CSS aqui */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #ff7f50; /* laranja */
+      text-align: center;
+    }
+    h2 {
+      color: #2ecc71; /* verde */
+    }
+    p {
+      color: #555;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #555;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #ff7f50; /* laranja */
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery img {
+      margin: 10px;
+      max-width: 300px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Projeto de Extensão em Ergonomia e Segurança no Trabalho</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre o Projeto</a></li>
+          <li><a href="#ergonomia-seguranca">Ergonomia e Segurança</a></li>
+          <li><a href="#galeria">Galeria de Fotos</a></li>
+          <li><a href="#aluno">Sobre o Aluno</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="sobre">
+      <h2>Sobre o Projeto</h2>
+      <p>Descrição: O Projeto de Extensão em Ergonomia e Segurança no Trabalho tem como objetivo fornecer conhecimentos e práticas para melhorar a qualidade de vida no ambiente de trabalho, reduzindo lesões e promovendo o bem-estar dos trabalhadores.</p>
+      <p>Objetivo: Conscientizar os profissionais de engenharia de software sobre a importância da ergonomia e segurança no trabalho, fornecendo informações e recursos relevantes para a prevenção de lesões ocupacionais.</p>
+      <p>Metodologia: Adotamos uma abordagem multidisciplinar, combinando teoria e prática para abordar questões relacionadas à ergonomia e segurança no trabalho, incluindo palestras, workshops e materiais educativos.</p>
+      <p>Resultados Esperados: Capacitar os participantes para implementar medidas eficazes de ergonomia e segurança no ambiente de trabalho, resultando em uma redução de lesões e melhoria da qualidade de vida dos trabalhadores.</p>
+    </section>
+    <section id="ergonomia-seguranca">
+      <h2>Ergonomia e Segurança no Trabalho</h2>
+      <h3>Princípios Básicos de Ergonomia</h3>
+      <p>Ergonomia: A ciência que estuda a adaptação do trabalho ao homem, visando melhorar a eficiência, segurança e conforto.</p>
+      <p>Postura correta: Importância de manter uma postura adequada durante as atividades laborais para prevenir dores musculares e lesões na coluna.</p>
+      <p>Ergonomia do ambiente de trabalho: Layout adequado do escritório, iluminação adequada, temperatura e ruído.</p>
+      <h3>Princípios Básicos de Segurança no Trabalho</h3>
+      <p>Equipamentos de Proteção Individual (EPI): Uso correto e obrigatório de EPIs conforme as atividades desempenhadas.</p>
+      <p>Prevenção de Acidentes: Identificação de riscos no ambiente de trabalho e implementação de medidas preventivas para reduzir acidentes.</p>
+      <h3>Dicas Práticas para um Ambiente de Trabalho Saudável</h3>
+      <p>Ergonomia da estação de trabalho: Ajuste da cadeira e mesa de trabalho para garantir uma postura adequada.</p>
+      <p>Pausas regulares: Importância de fazer pausas durante o trabalho para descanso e alongamento.</p>
+      <p>Promoção da saúde mental: Incentivo ao equilíbrio entre trabalho e vida pessoal, redução do estresse e promoção do bem-estar emocional.</p>
+    </section>
+    <section id="galeria">
+      <h2>Galeria de Fotos</h2>
+      <div class="gallery">
+        <img src="imagem1.jpg" alt="Descrição da Imagem 1">
+        <img src="imagem2.jpg" alt="Descrição da Imagem 2">
+        <img src="imagem3.jpg" alt="Descrição da Imagem 3">
+      </div>
+    </section>
+    <section id="aluno">
+      <h2>Sobre o Aluno</h2>
+      <p>Nome: Eduarda da Silva Honório Bezerra</p>
+      <p>Idade: 24 anos</p>
+      <p>Curso: Engenharia de Software</p>
+    </section>
+  </div>
+</body>
+</html>
